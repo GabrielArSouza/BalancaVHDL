@@ -1,7 +1,7 @@
 ENTITY deslocador IS
-    GENERIC (w : natural := 6);
+    GENERIC (w : natural := 8);
     PORT(a : IN BIT_VECTOR (w-1 downto 0); -- entrada
-	s: OUT BIT_VECTOR (w-1 downto 0)); --saída
+	s: OUT BIT_VECTOR (w-1 downto 0)); --saÃ­da
 END deslocador;
 
 ARCHITECTURE arch_desl OF deslocador IS
