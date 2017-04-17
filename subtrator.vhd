@@ -1,6 +1,6 @@
 
 ENTITY sub_Wbits IS
-GENERIC (w : natural := 6);
+GENERIC (w : natural := 8);
 
 PORT (  a, b : in  bit_vector(w-1 downto 0); -- entradas
 	cin  : in  bit;			     -- carry in
