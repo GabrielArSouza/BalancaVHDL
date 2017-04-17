@@ -16,14 +16,14 @@ architecture arch_mux of mux_8x1_Wbits is
 -- a1 maior (p-m) 
 -- a2 menor (m-p)
 begin
-   PROCESS(s0,s1,s2, a0, a1, a2, a5)
+   PROCESS(s0,s1,s2, a0, a1, a2)
    BEGIN 
       IF(s0='1') THEN  --igual
-         s <= a1;
+         s <= a0;
       ELSIF(s1='1') THEN --maior
-  	 s <= a2;
+  	 s <= a1;
       ELSE
-	 s <= a3;
+	 s <= a2;
       END IF;
    END PROCESS; 
 end arch_mux;

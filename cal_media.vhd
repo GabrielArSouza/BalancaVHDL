@@ -9,7 +9,7 @@ end calcula_media;
 
 architecture arch_med of calcula_media is
 
-    -- pesos
+    -- fios
     signal c_in1, c_in2, c_in3, c_out1, c_out2, c_out3 : bit;
     signal fio1, fio2 : bit_vector (w-1 downto 0);  
     signal fio3 : bit_vector (w-1 downto 0);

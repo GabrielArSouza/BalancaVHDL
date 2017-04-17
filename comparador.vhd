@@ -5,7 +5,7 @@ use ieee.std_logic_unsigned.all;
 entity comparator_Wbits is
     generic ( w : natural := 8);
 
-    port ( a, b : in std_logic_vector(w-1 downto 0);
+    port ( a, b : in bit_vector(w-1 downto 0);
 	   eq   : out std_logic;    -- a = b
 	   gt   : out std_logic;    -- a > b
 	   lt   : out std_logic);   -- a < b

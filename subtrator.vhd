@@ -1,16 +1,15 @@
-
 ENTITY sub_Wbits IS
 GENERIC (w : natural := 8);
 
 PORT (  a, b : in  bit_vector(w-1 downto 0); -- entradas
 	cin  : in  bit;			     -- carry in
-	s    : out bit_vector(w-1 downto 0); -- saÃ­das
+	s    : out bit_vector(w-1 downto 0); -- saídas
 	cout : out bit); 		     -- carry out
 
 END sub_Wbits;
 
 ARCHITECTURE arch_sub OF sub_Wbits IS
-    -- declaraÃ§Ã£o de sinais
+    -- declaração de sinais
     signal carry : bit_vector ( w downto 0 ); -- carry in interno
 
 begin
