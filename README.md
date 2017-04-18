@@ -1,7 +1,7 @@
 # BalancaVHDL
 
-Autor1: Gabriel Araújo de Souza
-Email1: gabriel_feg@hotmail.com
+Autores: Gabriel Araújo de Souza <gabriel_feg@hotmail.com>, Mayra Dantas de Azevedo <mayradazevedo@gmai.com>
+
 
 Projeto VHDL para a disciplina de Circuitos Digitais
 Curso de Tecnologia da Informação
